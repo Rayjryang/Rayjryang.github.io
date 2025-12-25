@@ -92,6 +92,7 @@
         </tbody></table>
         <table style="border-spacing:10px 0px;">
           <tbody>
+
             <tr>
               <td style="padding:20px;width:25%;vertical-align:middle">
                 <img src="images/seed.jpg", width="120">
@@ -174,6 +175,45 @@
           <table
             style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
             <tbody>
+
+              
+
+              <tr onmouseout="malle_stop()" onmouseover="malle_start()">
+                <td style="padding:20px;width:30%;vertical-align:middle">
+                  <div class="one">
+                    <div class="two" id='malle_image'>
+                      <img src='images/LASAGNA_teaser.png' width="190">
+                    </div>
+                    <img src='images/LASAGNA_teaser.png' width="190">
+                  </div>
+                  <script type="text/javascript">
+                    function malle_start() {
+                      document.getElementById('malle_image').style.opacity = "1";
+                    }
+                    function malle_stop() {
+                      document.getElementById('malle_image').style.opacity = "0";
+                    }
+                    malle_stop()
+                  </script>
+                </td>
+                <td style="padding:20px;width:70%;vertical-align:top">
+                  <a href="https://rayjryang.github.io/LASAGNA-Page/">
+                    <papertitle>Controllable Layered Image Generation for Real-World Editing</papertitle>
+                  </a>
+                  <br>
+                  <strong>Jinrui Yang</strong>, Qing Liu, Yijun Li, Mengwei Ren, Letian Zhang, Zhe Lin, Cihang Xie, Yuyin Zhou<br>
+                  <!-- <br>
+                  <em></em>,
+                  <br> -->
+                  <a href="">paper (coming soon)</a>/
+                  <a href="https://rayjryang.github.io/LASAGNA-Page/">page</a>
+                  <p></p>
+                  <p>
+                    LASAGNA is a unified framework for controllable layered image generation that jointly synthesizes coherent composites, clean backgrounds, and transparent foregrounds with realistic visual effects (e.g., shadows and reflections) to enable flexible and precise real-world image editing.
+                  </p>
+                </td>
+              </tr>
+
 
 
               <tr onmouseout="malle_stop()" onmouseover="malle_start()">
@@ -383,7 +423,7 @@
                     <b>Reviewer</b>
                   </p>
                   <ul>
-                    <li> Conference: AAAI2026, NeurIPS2025, CVPR2025, ICML2024, CVPR 2024, WACV 2023, WACV 2025, etc</li>
+                    <li> Conference: CVPR2026, AAAI2026, NeurIPS2025, CVPR2025, ICML2024, CVPR2024, WACV2023, WACV2025, etc</li>
                     <li> Journals: TIP, TCSVT, TMM, etc</li>
                 </td>
               </tr>
@@ -399,7 +439,7 @@
                   <heading>Teaching </heading>
                   <ul>
                     <li> CSE 144 - Applied Machine Learning: Deep Learning, Winter 2024.</li>
-                    <li> CSE 290D - Neural Computation, Fall 2025.</li>
+                    <li> CSE 290D - Neural Computation, Fall 2024.</li>
                     <li> CSE 290C - Advanced Topics in Machine Learning, Winter 2025.</li>
                     <li> CSE 102 - Introduction to Analysis of Algorithms, Spring 2025.</li>
                     <li> CSE 13S - Computer Systems and C Programming, Fall 2025.</li>
