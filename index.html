@@ -55,7 +55,7 @@
 
 
                   <p>  
-                  My research interests lie in deep learning and computer vision. I have published several works on image and video perception as well as multimodal learning. Currently, I focus on generative AI and multimodal large language model.
+                  My research interests lie in deep learning and computer vision. I have published several works on image and video perception, as well as multimodal learning. Currently, I focus on generative AI, multimodal large language models, and large language models.
                   </p>
                   
                   
@@ -215,6 +215,43 @@
               </tr>
 
 
+              <tr onmouseout="malle_stop()" onmouseover="malle_start()">
+                <td style="padding:20px;width:30%;vertical-align:middle">
+                  <div class="one">
+                    <div class="two" id='malle_image'>
+                      <img src='images/vlm_teaser.png' width="190">
+                    </div>
+                    <img src='images/vlm_teaser.png' width="190">
+                  </div>
+                  <script type="text/javascript">
+                    function malle_start() {
+                      document.getElementById('malle_image').style.opacity = "1";
+                    }
+                    function malle_stop() {
+                      document.getElementById('malle_image').style.opacity = "0";
+                    }
+                    malle_stop()
+                  </script>
+                </td>
+                <td style="padding:20px;width:70%;vertical-align:top">
+                  <a href="">
+                    <papertitle>Improving the Capability of Visual Language Models with Occlusion Reasoning</papertitle>
+                  </a>
+                  <br>
+                  <strong>Jinrui Yang</strong><sup>*</sup>, Zonglin Di<sup>*</sup>, Ohi Dibua, Qing Liu, Seun Adekunle, Daniil Pakhomov, Darshan Ganesh Prasad, Cihang Xie, Yuyin Zhou.<br>
+                  <!-- <br>
+                  <em></em>,
+                  <br> -->
+                  <a href="">paper (coming soon)</a>
+                  <p></p>
+                  <p>
+                    We introduce MMOCCLU and PARALLAX, an RL-trained vision–language model that learns occlusion-aware reasoning with precise grounding (mask/box/point), improving occlusion understanding while preserving general VLM performance.
+                  </p>
+                </td>
+              </tr>
+
+
+
 
               <tr onmouseout="malle_stop()" onmouseover="malle_start()">
                 <td style="padding:20px;width:30%;vertical-align:middle">
@@ -279,7 +316,7 @@
                     <papertitle>Scaling White-Box Transformers for Vision</papertitle>
                   </a>
                   <br>
-                  <strong>Jinrui Yang</strong>, Xianhang Li, Druv Pai, Yuyin Zhou, Yi Ma, Yaodong Yu, Cihang Xie
+                  <strong>Jinrui Yang</strong><sup>*</sup>, Xianhang Li<sup>*</sup>, Druv Pai, Yuyin Zhou, Yi Ma, Yaodong Yu, Cihang Xie
                   <br>
                   <em>NeurIPS</em>, 2024
                   <br>
